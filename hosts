@@ -1,0 +1,6 @@
+[workers]
+kube01 ansible_user=root
+kube02 ansible_user=root
+
+[local]
+control ansible_connection=local
